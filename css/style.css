@@ -1,0 +1,693 @@
+/* --------------------------- font */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "AlfaSlabOne";
+    src: url(../font/AlfaSlabOne-Regular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 1;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- tag */
+
+button:focus {
+    outline: none;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- IMAGE */
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- BANNER */
+
+.banner {
+    background-color: rgb(255, 192, 69);
+}
+
+.banner .pattern {
+    background-image: url(../image/background_image/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .site_identity {
+    padding-top: 53px;
+}
+
+.logo {
+    height: 58px;
+}
+
+.banner .icon {
+    height: 32px;
+    padding-right: 10px;
+}
+
+.banner .site_identity .col-12 {
+    padding-top: 10px;
+}
+
+.banner a {
+    font-size: 20.83px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+}
+
+
+/* .banner .navbar {
+    padding: 0px;
+    top: 20px;
+} */
+
+.nav-wrapper .nav.fixed {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.banner .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 57px;
+    line-height: 1;
+}
+
+.banner .navbar-light .navbar-nav .nav-link {
+    font-size: 21px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner h3 {
+    font-size: 23.65px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 12px 18px;
+    border: 2px dashed rgb(61, 37, 20);
+    display: inline-block;
+}
+
+.banner h1 {
+    font-size: 114.3px;
+    font-family: "AlfaSlabOne";
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    text-shadow: 3.936px 4.528px 0px rgb(254 232 188);
+    padding: 25px 0px;
+}
+
+.banner h2 {
+    font-size: 56.49px;
+    font-family: "AlfaSlabOne";
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    text-shadow: 3.936px 4.528px 0px rgb(254 232 188);
+    padding: 0px;
+}
+
+.banner .food_image {
+    max-width: 715px;
+    margin: 80px 0px;
+    z-index: 1;
+}
+
+.banner .food_image .main_image {
+    /* display: none; */
+    z-index: 1;
+}
+
+.banner .food_image .background_glow {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.banner .food_image .curcle {
+    border-radius: 100%;
+    background-color: rgb(191, 34, 34);
+    width: 174px;
+    height: 174px;
+    color: white;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    padding: 10px;
+}
+
+.banner .food_image .curcle h4 {
+    font-size: 30.37px;
+}
+
+.banner .food_image .curcle h4 span {
+    font-size: 69.84px;
+}
+
+.banner .food_image .curcle p {
+    font-size: 30.37px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+}
+
+.banner .food_image .curcle>div {
+    border: 2px dashed white;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- adv */
+
+.adv {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.adv .text {
+    top: 30px;
+    left: 25px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.adv .text p {
+    font-size: 25px;
+}
+
+.adv .text h1 {
+    font-size: 41.67px;
+    font-weight: inherit;
+}
+
+.adv .row .mult .col-12:first-child {
+    align-self: flex-start;
+}
+
+.adv .row .mult .col-12:last-child {
+    align-self: flex-end;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- food */
+
+.food .content h2 {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, 0px);
+    font-size: 25px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    padding: 15px 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(255, 192, 69);
+}
+
+.food .content h1 {
+    font-size: 50px;
+    font-family: "AlfaSlabOne";
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.food .content p {
+    font-size: 16.667px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+}
+
+
+/* --------------------------- owl */
+
+.food .owl {
+    padding: 70px 25px;
+}
+
+.food .owl .card {
+    border: none;
+    max-width: 375px;
+}
+
+.food .owl .card .card-img-top {
+    max-width: 300px;
+}
+
+.food .owl .owl-carousel .owl-wrapper {
+    display: table !important;
+}
+
+.food .owl .owl-carousel .owl-item {
+    display: table-cell;
+    float: none;
+    vertical-align: bottom;
+}
+
+.food .owl .card .card-img-top .img_shadow {
+    bottom: -25%;
+    min-width: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.food .owl .card .card-body {
+    padding-top: 75px;
+}
+
+.food .owl .card .card-body h5 {
+    font-size: 37.5px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.food .owl .card .card-body p {
+    font-size: 16.67px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.food .owl .card .card-body a {
+    padding: 20px 38px;
+    background-color: rgb(191, 34, 34);
+    font-size: 16.667px;
+    font-family: "AlfaSlabOne", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- */
+
+
+/* --------------------------- event */
+
+.event .container {
+    padding-top: 60px;
+    padding-bottom: 133px;
+}
+
+.event .media {
+    padding: 25px;
+}
+
+.event .container .owl-carousel {
+    box-shadow: 18.656px 24.758px 43px 0px rgba(0, 0, 0, 0.17);
+}
+
+.event .media .media-body h3 {
+    font-size: 29px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    padding-top: 38px;
+}
+
+.event .media .media-body h1 {
+    font-size: 41.667px;
+    font-family: "AlfaSlabOne", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-bottom: 45px;
+}
+
+.event .media .media-body p {
+    font-size: 20.83px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: normal;
+}
+
+.event .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: rgb(220, 220, 220);
+    margin-right: 8px;
+}
+
+.event .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot.active {
+    background-color: rgb(255, 192, 69);
+}
+
+.event .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- form */
+
+form.login_form {
+    z-index: 1;
+}
+
+form.login_form .container {
+    max-width: 890px;
+    z-index: 3;
+}
+
+form.login_form .container h3 {
+    font-size: 29px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+}
+
+form.login_form .container h1 {
+    font-size: 50px;
+    font-family: "AlfaSlabOne", Arial, Helvetica, sans-serif;
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 90px;
+    letter-spacing: 0.96px;
+}
+
+form.login_form .container .form-group {
+    padding: 13.5px 12.5px;
+}
+
+form.login_form input,
+form.login_form .btn {
+    height: 65px;
+    border-radius: 5px;
+}
+
+form.login_form .btn {
+    background-color: rgb(191, 34, 34);
+    font-size: 21px;
+    font-family: "AlfaSlabOne", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+form.login_form .btn span {
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+form.login_form .btn:focus {
+    box-shadow: none;
+}
+
+form.login_form .btn:hover {
+    background-color: rgb(0, 0, 0);
+    /* transition-delay: 1.5s; */
+}
+
+form.login_form input {
+    font-size: 21px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+form.login_form img {
+    z-index: -1;
+}
+
+form.login_form .img_1 {
+    max-height: 382px;
+    left: 0px;
+    top: -60px;
+}
+
+form.login_form .img_2 {
+    max-height: 462px;
+    left: 140px;
+    top: 50%;
+    transform: translate(0px, -20%);
+}
+
+form.login_form .img_3 {
+    max-height: 582px;
+    right: 0px;
+    bottom: -260px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- footer */
+
+footer {
+    margin-top: 177px;
+    margin-bottom: 66px;
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+footer .container .back_image {
+    background-image: url(../image/background_image/2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 83px;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+
+footer .container {
+    background-color: black;
+}
+
+footer .container .logo {
+    max-height: 90px;
+}
+
+footer .container p {
+    padding-top: 48px;
+    font-size: 16.667px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+footer .container a {
+    font-size: 21px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 17px;
+}
+
+footer .container .copy_rights {
+    margin-top: 173px;
+    margin-bottom: 30px;
+}
+
+footer .container a img {
+    max-width: 35px;
+    margin-right: 35px;
+}
+
+footer .container .nav-link {
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+}
+
+footer .container .copy_rights p {
+    padding: 0px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Responsive */
+
+@media (max-width: 1199px) {
+    /* --------------------------- Banner */
+    .banner h1 {
+        font-size: 85px;
+    }
+    .banner h2 {
+        font-size: 45px;
+    }
+    .banner h3 {
+        font-size: 16px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 991px) {
+    /* --------------------------- Banner */
+    #logo {
+        height: 50px;
+    }
+    .banner a {
+        font-size: 17px;
+    }
+    .banner h1 {
+        font-size: 70px;
+    }
+    .banner h3 {
+        font-size: 15px;
+    }
+    .banner .food_image .curcle {
+        width: 150px;
+        height: 150px;
+    }
+    /* --------------------------- */
+    /* --------------------------- adv */
+    .adv .text h1 {
+        font-size: 30px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 767px) {
+    /* --------------------------- banner */
+    #logo {
+        height: 40px;
+    }
+    .banner a {
+        font-size: 12px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner h2 {
+        font-size: 40px;
+    }
+    .banner h3 {
+        font-size: 12px;
+    }
+    .banner .food_image .curcle {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        left: 30px;
+    }
+    .banner .food_image .curcle h4 span {
+        font-size: 40px;
+    }
+    .banner .food_image .curcle p,
+    .banner .food_image .curcle h4 {
+        font-size: 20px;
+    }
+    /* --------------------------- */
+    /* --------------------------- adv */
+    .adv .row .content {
+        padding: 10px 0px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 575px) {
+    /* --------------------------- banner */
+    #logo {
+        height: 58px;
+    }
+    .banner a {
+        font-size: 20.83px;
+    }
+    .banner h1 {
+        font-size: 70px;
+    }
+    .banner h2 {
+        font-size: 45px;
+    }
+    .banner h3 {
+        font-size: 15px;
+    }
+    .banner .food_image .curcle {
+        width: 174px;
+        height: 174px;
+        padding: 10px;
+    }
+    .banner .food_image .curcle h4 {
+        font-size: 30.37px;
+    }
+    .banner .food_image .curcle h4 span {
+        font-size: 69.84px;
+    }
+    /* --------------------------- */
+}
+
+
+/* --------------------------- */
